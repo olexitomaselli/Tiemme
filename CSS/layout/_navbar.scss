@@ -1,0 +1,73 @@
+.logo {
+    text-decoration: none !important;
+    color: #626262;
+}
+
+.navbar {
+    padding: 0;
+}
+  
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+  
+.navbar li {
+    position: relative;
+}
+  
+.navbar a,
+.navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.8vh;
+    color: #626262;
+    white-space: nowrap;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+  
+.navbar a i,
+.navbar a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+}
+  
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+    color: #006ace;
+}
+
+.hover-underline-animation {
+    position: relative;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+  
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #006ace;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+} 

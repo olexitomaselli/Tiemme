@@ -1,0 +1,11 @@
+@import './layout/navbar';
+
+@import './pages/home';
+
+@import './Components/buttons';
+@import './Components/cards';
+
+#header {
+    box-shadow: 0 2px 2px -2px gray;
+    backdrop-filter: blur(10px);
+}
