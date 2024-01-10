@@ -1,0 +1,33 @@
+.container_carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+
+    & .carousel-inner {
+        border-radius: 100px;
+    }
+
+    & .slide {
+        width:60%;
+        margin-top: 3%;
+    }
+
+    & .carousel-control-prev, .carousel-control-next {
+        height: 65px;
+        width: 65px;
+        top: 50%;
+        border-radius: 100px;
+        border: 2px solid white;
+        padding: 0, 5%, 0, 5%;
+    }
+
+}
+
+.carousel-control-prev {
+    margin-left: 5%;
+}
+
+.carousel-control-next {
+    margin-right: 5%;
+}

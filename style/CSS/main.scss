@@ -1,11 +1,14 @@
-@import '../SCSS/layout/navbar';
-@import '../SCSS/layout/animations';
+@import '../../SCSS/layout/navbar';
+@import '../../SCSS/layout/animations';
 
-@import '../SCSS/pages/home';
+@import '../../SCSS/pages/home';
 
-@import '../SCSS/Components/buttons';
-@import '../SCSS/Components/cards';
+@import '../../SCSS/Components/buttons';
+@import '../../SCSS/Components/cards';
 
+@import '../../SCSS/Components/carousel';
+
+@import '../../SCSS/Components/footer';
 #header {
     box-shadow: 0 2px 2px -2px gray;
     backdrop-filter: blur(10px);
