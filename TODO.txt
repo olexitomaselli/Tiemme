@@ -1,0 +1,7 @@
+TODO: 
+ - Sistemare il carosello, 
+ - Sistemare le card con i vari prodotti, 
+ - Inserire i vari titoli e piccole descrizioni dei vari prodotti,
+ - Inserire codice prodotto più grande ed aggiungere la categoria del prodotto di mepa,
+ - All'interno della card  fare i bottoni più grandi;
+ - Sostituire il bottone Contattami con il  bottone che ti porta su mepa sul link per acquistare il prodotto.
