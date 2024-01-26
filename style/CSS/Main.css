@@ -1,6 +1,6 @@
 .logo {
   text-decoration: none !important;
-  color: #626262;
+  color: #cacaca;
 }
 
 .navbar {
@@ -27,7 +27,7 @@
   padding: 20px 20px 20px 20px;
   font-family: "Roboto", sans-serif;
   font-size: 1.8vh;
-  color: #626262;
+  color: #c4c4c4;
   white-space: nowrap;
   transition: 0.3s;
   text-transform: uppercase;
@@ -45,7 +45,7 @@
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: #006ace;
+  color: #0068c9;
 }
 
 .hover-underline-animation {
@@ -70,6 +70,12 @@
 .hover-underline-animation:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+#header {
+  box-shadow: rgb(212, 212, 212) 0px 2px 2px -2px !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+          backdrop-filter: blur(10px) !important;
 }
 
 /* Animation LogoHome */
@@ -221,37 +227,21 @@
   width: 80px;
 }
 
-.container_carousel {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(21, 69, 132);
-  /*     & .slide {
-          width:70%;
-          margin-top: 3%;
-      } */
+.carousel {
+  background-color: rgba(21, 69, 132, 0.671);
 }
-.container_carousel .carousel-control-prev, .container_carousel .carousel-control-next {
-  position: fixed;
+
+.carousel-inner img {
+  height: 100vh;
+}
+
+.carousel-control-prev, .carousel-control-next {
   height: 65px;
   width: 65px;
   top: 50%;
   border-radius: 100px;
   border: 2px solid rgb(255, 255, 255);
   padding: 0, 5%, 0, 5%;
-}
-
-.carousel-item img {
-  max-width: 1020px;
-  max-height: 1020px;
-}
-
-.carousel-control-prev {
-  margin-left: 5%;
-}
-
-.carousel-control-next {
-  margin-right: 5%;
 }
 
 .site-footer {
