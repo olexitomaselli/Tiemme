@@ -1,5 +1,5 @@
 TODO: 
- - Sistemare il carosello, 
+ //- Sistemare il carosello, #fatto
  - Sistemare le card con i vari prodotti, 
  - Inserire i vari titoli e piccole descrizioni dei vari prodotti,
  - Inserire codice prodotto più grande ed aggiungere la categoria del prodotto di mepa,

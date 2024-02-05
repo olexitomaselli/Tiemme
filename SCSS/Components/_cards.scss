@@ -1,3 +1,12 @@
+//?Import fonts
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&family=Josefin+Sans&display=swap');
+//?
+
+.col-md-3 {
+  border-right: 1px solid #003e6850;
+}
+
+
 .card {
   max-width: 100%;
   &:hover {
@@ -5,16 +14,24 @@
   }
 }
 
+.card-title {
+  font-family: 'Almarai', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #0167a6;
+}
+
 .card-button {
   display: flex;
   justify-content: center;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
+  font-size: 2.8vh;
+
 
   & button {
     padding: 5px 15px 5px 15px;
     border-radius: 20px;
     background-color: rgba(34, 94, 121, 0.315);
-    color: rgba(255, 255, 255, 0.781);
+    color: rgb(255, 255, 255);
   }
 
   & :nth-child(1), :nth-child(2) {
@@ -34,5 +51,32 @@
   justify-content: center;
   background-color: rgb(59, 106, 128);
   color: white;
-  width: 80px;
+  font-size: 2vh;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-family: 'Almarai', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.produc-categorie {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(76, 112, 128);
+  color: white;
+  font-size: 2.5vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: 'Almarai', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+li::marker {
+  color: rgb(108, 195, 236)
+  ;
+}
+
+ul {
+  padding-left: 1rem !important;
 }
