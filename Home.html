@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css"> -->
   <title>Tiemme Shop</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="./style/CSS/Main.css">
 </head>
 <body>
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
-      <a href="index.html" class="logo me-auto">TIEMME</a>
+      <a href="index.html" class="logo me-auto"><img class="slide-in-elliptic-top-fwd" src="../Images/Logo_Tiemme.png" alt="LogoHome" height="70" width="110"></a>
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto hover-underline-animation" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto hover-underline-animation" href="#carou">Home</a></li>
           <li><a class="nav-link scrollto hover-underline-animation" href="#cards-section">Prodotti</a></li>
           <li><a class="nav-link scrollto hover-underline-animation" href="#contact">Contattaci</a></li>
         </ul>
@@ -24,18 +24,18 @@
     </div>
   </header>
   <section>
-    <div class="container_carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-current="true" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-current="true" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-current="true" aria-label="Slide 4"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-current="true" aria-label="Slide 5"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-current="true" aria-label="Slide 6"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-current="true" aria-label="Slide 7"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-current="true" aria-label="Slide 8"></button>
-      </div>
+    <div id="carou" class="container_carousel ">
       <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-current="true" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-current="true" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-current="true" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-current="true" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-current="true" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-current="true" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-current="true" aria-label="Slide 8"></button>
+        </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="./Images/steripower.png" class="mx-auto d-block img-fluid" alt="Photo not found">
@@ -75,16 +75,9 @@
   </section>
 
   <section id="hero">
-    <!-- <img class="home-image" src="" class="img-fluid" alt=""> -->
-<!--     <div class="logo-home d-flex justify-content-center">
-      <img class="slide-in-elliptic-top-fwd" src="../Images/Logo_Tiemme.png" alt="LogoHome">
-    </div> -->
-  </section>
-  <section>
-
   </section>
   <main>
-    <div style="display: flex; justify-content: center; margin-top: 5%;">
+    <div class="slogan" style="display: flex; justify-content: center; margin-top: 5%;">
       <h1 style="color: rgb(21, 69, 132);">"Salute e benessere: la nostra priorità"</h1>
     </div>
     <div id="cards-section">
@@ -175,18 +168,69 @@
             </div>
             <div class="col-md-8" style="display: flex; flex-direction: column;">
               <div class="card-body">
-                <div class="card-title fs-1">M20 vital signs monitor®</div>
-                <p class="card-text d-flex align-items-center">Il M20 vital signs monitor della medical ECONET convince per la sua maneggevolezza chiara e semplice. Con un ampio touchscreen da 8" e un funzionamento chiaro, è il compagno ideale nella vita medica quotidiana nello studio medico o in ospedale.</p>
+                <div class="card-title fs-1">inus D DXA pencil beam system®</div>
+                <p class="card-text d-flex align-items-center">Questo dispoitivo misura la densità ossea con metodo assiale DEXA.</p>
                 <ul>
-                  <li>Touchscreen da 8".</li>
-                  <li>Misurazione a campione, incluso MEWS (Modified Early Warning Scoring)</li>
-                  <li>misurazione della saturazione di ossigeno e della frequenza cardiaca</li>
-                  <li>Misurazione della pressione sanguigna per adulti, bambini e neonati</li>
+                  <li>Determinazione della densità ossea su colonna lombare, femore e avambraccio.</li>
+                  <li>Ottima riproducibilità grazie all'elevata precisione</li>
+                  <li>Determinazione automatica della "Regione di interesse (ROI)</li>
+                  <li>Rapporto completo con output di T- e Z-Score</li>
                   <li>Altro...</li>
                 </ul>
               </div>
               <div class="card-button">
-                <button onclick="parent.open('https://www.medical-econet.com/en/patient-monitoring/vital-sign-monitors/334/m20-vital-signs-monitor?c=59')">DETTAGLI</button>
+                <button onclick="parent.open('https://www.medical-econet.com/en/bdm/dxa-systems/72/inus-d-dxa-pencil-beam-system?c=64')">DETTAGLI</button>
+              </div>
+              <div class="produc-code col-3 d-flex align-items-center">COD. #1111</div>
+              <div class="produc-categorie col-3">Dispositivo</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 mt-5 animate-on-scroll">
+          <div class="row g-0 ">
+            <div class="col-md-3 d-flex align-items-center">
+              <img src="./Images/smart3.png" class="rounded-start" alt="Image not found" width="320" height="330">
+            </div>
+            <div class="col-md-8" style="display: flex; flex-direction: column;">
+              <div class="card-body">
+                <div class="card-title fs-1">Smart 3 Fetal Monitor w/ 7"®</div>
+                <p class="card-text d-flex align-items-center">Monitor fetale Smart 3 Twin con display a colori TFT Touch Screen da 7".</p>
+                <ul>
+                  <li> Visualizzazione della frequenza cardiaca fetale di due feti e della contrazione dell'utero alfanumerica e in forma curva• Registrazione del movimento del bambino di entrambi i feti (Fetal Movement).</li>
+                  <li>Elevata sensibilità grazie alla frequenza della sonda di 1 MHz</li>
+                  <li>Determinazione automatica della "Regione di interesse (ROI)</li>
+                  <li>Stampa di tutti i parametri in formato</li>
+                  <li>Altro...</li>
+                </ul>
+              </div>
+              <div class="card-button">
+                <button onclick="parent.open('https://www.medical-econet.com/en/fetal-monitoring/ctgs/62/smart-3-fetal-monitor-w/7?c=57')">DETTAGLI</button>
+              </div>
+              <div class="produc-code col-3 d-flex align-items-center">COD. #1111</div>
+              <div class="produc-categorie col-3">Dispositivo</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 mt-5 animate-on-scroll">
+          <div class="row g-0 ">
+            <div class="col-md-3 d-flex align-items-center">
+              <img src="./Images/mpro.png" class="rounded-start" alt="Image not found" width="320" height="330">
+            </div>
+            <div class="col-md-8" style="display: flex; flex-direction: column;">
+              <div class="card-body">
+                <div class="card-title fs-1">CARDIO M-PRO®</div>
+                <ul>
+                  <li> 12, 6 and 3 channel resting ECG.</li>
+                  <li>Touchscreen LCD a colori da 8".</li>
+                  <li>Stampa chiara e alta in formato DIN A4</li>
+                  <li>Stampa della derivazione del ritmo per impostazioni a 3 e 6 canali</li>
+                  <li>Altro...</li>
+                </ul>
+              </div>
+              <div class="card-button">
+                <button onclick="parent.open('https://www.medical-econet.com/en/ecg/ecg-devices/322/cardio-m-pro?c=58')">DETTAGLI</button>
               </div>
               <div class="produc-code col-3 d-flex align-items-center">COD. #1111</div>
               <div class="produc-categorie col-3">Dispositivo</div>
@@ -200,10 +244,18 @@
   </main>
   <section id="contact">
     <div class="contact-section" style="display: flex; flex-direction: column; align-items: center;">
-      <h3>Contattaci</h3>
-      <div class="phone-container" style="display: flex; flex-direction: row; align-items: center;">
-        <i class="fa-solid fa-phone" style="margin-right: 10px;"></i>
-        <h5>+39 360 649 942</h5>
+      <div class="form-container">
+        <form class="form">
+          <div class="form-group">
+            <label id="email-sender" >Digita la tua Email</label>
+            <input required="" name="email" id="email" type="text">
+          </div>
+          <div class="form-group">
+            <label for="textarea">In cosa possiamo aiutarti?</label>
+            <textarea required="" cols="50" rows="10" id="textarea" name="textarea">          </textarea>
+          </div>
+          <button type="submit" class="form-submit-btn">Invia</button>
+        </form>
       </div>
     </div>
   </section>
@@ -256,8 +308,9 @@
   </footer>
 
   <script src="https://kit.fontawesome.com/729aa9b967.js" crossorigin="anonymous"></script>
-  <!-- <script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  <script src="../JS/Index.js"></script>
+  <script src="./JS/Index.js"></script>
+  <script src="./JS/form.js"></script>
+
 </body>
 </html>
