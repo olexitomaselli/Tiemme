@@ -79,6 +79,26 @@
           backdrop-filter: blur(10px) !important;
 }
 
+.navbar i {
+  display: flex;
+  right: -50%;
+  font-size: 2rem;
+}
+
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(18, 93, 143); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid rgba(255, 255, 255, 0); /* creates padding around scroll thumb */
+}
+
 /* Animation LogoHome */
 @keyframes slide-in-elliptic-top-fwd {
   0% {
