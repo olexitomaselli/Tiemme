@@ -581,6 +581,10 @@ ul {
     font-weight: 600;
   }
 }
+.col-md-3 {
+  border-right: none !important;
+}
+
 #header {
   box-shadow: 0 2px 2px -2px gray;
   -webkit-backdrop-filter: blur(10px);
