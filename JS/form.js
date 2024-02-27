@@ -5,9 +5,9 @@ $('#contact form').on('submit', function(event) {
     const message = $('#textarea').val();
     var formData = new FormData(this);
     // Aggiungi i dati aggiuntivi necessari per l'invio dell'email
-    formData.append('service_id', 'service_2zwjdrr');
-    formData.append('template_id', 'template_a7rin0d');
-    formData.append('user_id', 'GwVq5lZ39lB2Drm_Q');
+    formData.append('service_id', 'service_0tk5xf5');
+    formData.append('template_id', 'template_4i41l34');
+    formData.append('user_id', 'HxsgnYzPpogQw-tB9');
     formData.append('email', email);
     formData.append('message', message);
 
